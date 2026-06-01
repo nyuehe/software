@@ -32,7 +32,8 @@ https://github.com/hovancik/stretchly/releases
 firefox
 https://www.firefox.com/en-US/
 [ESR是Extended Support Release（延长支持版） 的缩写]https://ftp.mozilla.org/pub/firefox/releases/
-  android：https://ftp.mozilla.org/pub/fenix/releases/
+  android找到数字最大的就是最新版本，选arm64-v8a版本
+  https://ftp.mozilla.org/pub/fenix/releases/
 
 keepass
 https://keepass.info/download.html
