@@ -30,7 +30,11 @@ Stretchly -  The break time reminder app
 https://github.com/hovancik/stretchly/releases
 
 firefox
-pc
+pc(ESR是Extended Support Release（延长支持版） 的缩写)
+https://ftp.mozilla.org/pub/firefox/releases/
+  android：https://ftp.mozilla.org/pub/fenix/releases/
 
-android
-https://ftp.mozilla.org/pub/fenix/releases/
+keepass
+https://keepass.info/download.html
+  Keepass2Android（Signed-arm64.apk 带联网功能版本）
+  https://github.com/PhilippC/keepass2android/releases
