@@ -51,6 +51,20 @@ https://github.com/hovancik/stretchly/releases
 
 Firefox ESR
 https://www.firefox.com/en-US/download/all/desktop-esr/
+第一步：创建新的配置文件到目标位置
+1. 完全关闭 Firefox。
+2. 按 Win + R，输入下面命令后回车：
+   firefox.exe -ProfileManager
+   （如果系统提示找不到，就输入完整路径，如 "C:\Program Files\Mozilla Firefox\firefox.exe" -ProfileManager）
+3. 在弹出的“Firefox - 选择用户配置文件”窗口中，先取消勾选“启动时不询问使用此配置文件”，然后点击 “创建配置文件…”。
+4. 点击 “下一步”。
+5. 在“输入新的配置文件名称”处随便起个名，比如 MyProfile。
+6. 重点来了：点击下方的 “选择文件夹…” 按钮，在弹出的对话框里，找到你想存放的新位置，比如 C:\Firefox_Data\Profiles（自己提前建好文件夹），选中它，点“确定”。
+7. 回到创建窗口，你会看到路径已变成你选的那个，点击 “完成”。
+8. 现在在配置文件列表中，你刚刚创建的 MyProfile 已经被选中，勾选上 “启动时不询问使用此配置文件”，然后点击 “启动 Firefox”。
+这样，一个全新的、存放在自定义位置的配置文件就创建好了。
+第二步：导入备份的书签json文件，历史记录文件places.sqlite直接复制到配置文件夹下
+
 [ESR是Extended Support Release（延长支持版） 的缩写]https://ftp.mozilla.org/pub/firefox/releases/
   android找到数字最大的就是最新版本，选arm64-v8a版本
   https://ftp.mozilla.org/pub/fenix/releases/
