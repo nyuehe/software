@@ -53,9 +53,7 @@ Firefox ESR
 https://www.firefox.com/en-US/download/all/desktop-esr/
 第一步：创建新的配置文件到目标位置
 1. 完全关闭 Firefox。
-2. 按 Win + R，输入下面命令后回车：
-   firefox.exe -ProfileManager
-   （如果系统提示找不到，就输入完整路径，如 "C:\Program Files\Mozilla Firefox\firefox.exe" -ProfileManager）
+2. Win + R，输firefox.exe -ProfileManager
 3. 在弹出的“Firefox - 选择用户配置文件”窗口中，先取消勾选“启动时不询问使用此配置文件”，然后点击 “创建配置文件…”。
 4. 点击 “下一步”。
 5. 在“输入新的配置文件名称”处随便起个名，比如 MyProfile。
