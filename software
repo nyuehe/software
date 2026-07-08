@@ -69,12 +69,14 @@ https://www.firefox.com/en-US/download/all/desktop-esr/
 
 keepass
 https://keepass.info/download.html
+开机启动Win + R 键输入 shell:startup
   Keepass2Android（Signed-arm64.apk 带联网功能版本）
   https://github.com/PhilippC/keepass2android/releases
 
 
 v2rayN (Windows)（不要下desktop版本，Windows desktop 版本目前适合特定用户使用，等慢慢完善；这个版本是跨平台的）
 https://github.com/2dust/v2rayN/releases
+开机启动Win + R 键输入 shell:startup
 v2rayNG (Android)
 https://github.com/2dust/v2rayNG/releases
 
